@@ -1,0 +1,75 @@
+body {
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.navBar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.titulo {
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.imagens {
+  text-align: center;
+}
+
+.imagens img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.devs {
+  text-align: center;
+}
+
+.devs a {
+  text-decoration: none;
+  color: #333;
+}
+
+@media screen and (min-width: 768px) {
+  .navBar {
+    padding: 10px 40px;
+  }
+  .titulo {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navBar {
+    padding: 10px 80px;
+  }
+  .titulo {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navBar {
+    padding: 10px 100px;
+  }
+  .titulo {
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */
